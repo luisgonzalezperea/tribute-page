@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute page</title>
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/b0455e8c8f.js" crossorigin="anonymous"></script>
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="nav-a" href="#img-div">Intro</a></li>
+                <li><a class="nav-a" href="#text-div">History</a></li>
+                <li><a class="nav-a" href="#text-div2">Contact us</a></li>
+                <li><a class="nav-a" href="#footer">Social networks</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- First container - Intro -->
+        <div id="img-div">
+            <h1 id="title">Canada</h1>
+            <p>The second largest country in the world, the one with the longest coastline. Read on and soak up its
+                history.
+            </p>
+            <img id="image" src="https://cblingua.com/wp-content/uploads/2018/01/Flag_map_Canada.png"
+                alt="Canada's map" />
+            <figcaption id="img-caption">Canadian flag, adopted February 15, 1965</figcaption>
+        </div>
+        <!-- Second container - History -->
+        <div id="text-div">
+            <h2 id="tribute-info">Here's the time line of Canada's history</h2>
+            <p class="main-text">--- The first inhabitants of North America are generally hypothesized to have migrated
+                from Siberia by
+                way of the Bering land bridge and arrived at least 14,000 years ago.</br></br>
+                --- It is believed that the first European to explore the east coast of Canada was Norse explorer Leif
+                Erikson. In approximately 1000 AD, the Norse built a small short-lived encampment that was occupied
+                sporadically for perhaps 20 years at L'Anse aux Meadows on the northern tip of Newfoundland. No further
+                European exploration occurred until 1497, when Italian seafarer John Cabot explored and claimed Canada's
+                Atlantic coast in the name of King Henry VII of England.</br></br>
+                --- In 1583, Sir Humphrey Gilbert, by the royal prerogative of Queen Elizabeth I, founded St. John's,
+                Newfoundland, as the first North American English seasonal camp. In 1600, the French established their
+                first seasonal trading post at Tadoussac along the Saint Lawrence. French explorer Samuel de Champlain
+                arrived in 1603 and established the first permanent year-round European settlements at Port Royal (in
+                1605) and Quebec City (in 1608).</br></br>
+                --- The Royal Proclamation of 1763 established First Nation treaty rights, created the Province of
+                Quebec out of New France, and annexed Cape Breton Island to Nova Scotia. St. John's Island (now Prince
+                Edward Island) became a separate colony in 1769. To avert conflict in Quebec, the British Parliament
+                passed the Quebec Act 1774, expanding Quebec's territory to the Great Lakes and Ohio Valley.</br></br>
+                --- Following several constitutional conferences, the British North America Act 1867 officially
+                proclaimed Canadian Confederation on July 1, 1867, initially with four provinces: Ontario, Quebec, Nova
+                Scotia, and New Brunswick.</br></br>
+                --- Because Britain still maintained control of Canada's foreign affairs under the British North America
+                Act, 1867, its declaration of war in 1914 automatically brought Canada into World War I.</br></br>
+                --- The Great Depression in Canada during the early 1930s saw an economic downturn, leading to hardship
+                across the country. In response to the downturn, the Co-operative Commonwealth Federation (CCF) in
+                Saskatchewan introduced many elements of a welfare state (as pioneered by Tommy Douglas) in the 1940s
+                and 1950s. On the advice of Prime Minister William Lyon Mackenzie King, war with Germany was declared
+                effective September 10, 1939, by King George VI, seven days after the United Kingdom. The delay
+                underscored Canada's independence.</br></br>
+                --- Canada's post-war economic growth, combined with the policies of successive Liberal governments, led
+                to the emergence of a new Canadian identity, marked by the adoption of the Maple Leaf Flag in 1965, the
+                implementation of official bilingualism (English and French) in 1969, and the institution of official
+                multiculturalism in 1971.</br></br>
+            </p>
+            <p class="more-info">
+                If you are interested in the history of the country, you can read more about it
+                <a id="tribute-link" href="https://en.wikipedia.org/wiki/Canada" target="_blank">here</a>
+            </p>
+        </div>
+        <!-- Third container - Contact us -->
+        <div id="text-div2">
+            <h2 id="contact-us">Do you have any questions?</h2>
+            <form id="form" method="post">
+                <fieldset>
+                    <label id="name-label">Name <input type="text" id="name" required
+                            placeholder="[Enter you name]" /></label>
+                    <label id="email-label">Email </strong><input type="email" id="email" required
+                            placeholder="[Enter you email]" /></label>
+                    <label>Message
+                        <textarea name="message" rows="3" cols="30" placeholder="[Tell us]" required></textarea>
+                    </label>
+                </fieldset>
+                <button class="button" type="submit">Submit</button>
+            </form>
+
+        </div>
+    </main>
+
+    <footer id="footer">
+        <address>
+            <p>Check out their social networks</p>
+            <a target="_blank" href="https://twitter.com/Canada"><i class="fa-brands fa-twitter"></i></a><br />
+            <a target="_blank" href="https://www.instagram.com/canada/"><i class="fa-brands fa-instagram"></i></a><br />
+            <a target="_blank" href="https://www.linkedin.com/company/canada-immigration-canada-pr-express-entry/"><i
+                    class="fa-brands fa-linkedin"></i></a>
+        </address>
+    </footer>
+</body>
+
+</html>
